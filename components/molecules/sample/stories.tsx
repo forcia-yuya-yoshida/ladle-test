@@ -1,5 +1,5 @@
 import {Story, StoryDefault} from "@ladle/react"
-import {Sample} from "."
+import {SampleMolecule} from "."
 
 export default {
 	title: "sample",
@@ -8,9 +8,9 @@ export default {
 	}
 } satisfies StoryDefault;
 
-export const SampleStory = () => <Sample name="waiyade" />;
+export const SampleStory = () => <SampleMolecule name="waiyade" />;
 
 export const SampleStory2 = () => "uouo";
 
-export const SampleStory3:Story = () => "ieie";
+export const SampleStory3: Story = () => "ieie";
 SampleStory3.storyName = "namae karerareruyo"
