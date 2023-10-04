@@ -1,4 +1,4 @@
-import SampleOrganism from "../../organisms/sample";
+import SampleOrganism from "../../layer2_organisms/sample";
 
 const SampleLayout = ({id}: {id: number}) => {
 	return (
